@@ -1,0 +1,93 @@
+.container {
+    border-radius: 5px;
+    background-color: #b262d6;
+    padding: 10px;
+    margin: 10px !important;
+  }
+  
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2cb4cc;
+  }
+  li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  a {
+    display: block;
+    padding: 50px;
+    background-color: #2cb4cc;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     background-color: #41ba9c;
+  }
+  a:hover {
+    background-color: #911491;
+  }
+  
+  .active {
+    background-color: #34f00e;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type="text"],input[type="date"],input[type="number"],input[type="password"],input[type="login"],input[type=""],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(196, 131, 131);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #24e90a;
+    color: rgb(248, 242, 242);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #911491;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .container2 {
+    border-radius: 5px;
+    background-color: #cfb4db;
+    padding: 10px;
+  }
+  .padding {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #5c2863;
+    padding: 10px;
+  }
+  
+  body{
+      font-family: 'Roboto';
+  }
